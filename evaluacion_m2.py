@@ -1,11 +1,17 @@
 import funciones
 
+
 print("Hola, bienvenido al abaco virtualmix-3d")
-print("Ingrese abajo un numero de 6 digitos")
+print("Ingrese abajo un numero =< 6 digitos")
+n = input("A q u i ! : ")
+funciones.ingreso_y_descomp_num(n)
+funciones.crear_tablero()
 
 
 if __name__ == '__main__':
-    funciones.ingreso_y_descomp_num()
+    while False:  #Aqui hago pruebas con funciones
+        funciones.ingreso_y_descomp_num(n)
+        funciones.crear_tablero()
 
 
 
