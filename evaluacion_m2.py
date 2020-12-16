@@ -1,5 +1,16 @@
 #Haga un programa que muestre una cantidad ingresada por el usuario en forma de abaco en pantalla:
 
+
+def crear_tablero():
+    tableros = ("   *--* ", "   |  | ", "   |  | ",
+                "   |  | ", "   |  | ", "   |  | ",
+                "   |  | ", "   +--+ ")
+    sis_enum_decimal = ' 100.000  10.000  1.000    100      10      1'
+    for tablero in tableros:
+        print(tablero * 6)
+    print(sis_enum_decimal)
+
+crear_tablero()
 #Utilice un diccionario que almacene las unidades, decenas, centenas,
 #unidades de mil, unidades de diez mil y unidades de cien mil.
 
