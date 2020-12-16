@@ -1,46 +1,14 @@
-#Haga un programa que muestre una cantidad ingresada por el usuario en forma de abaco en pantalla:
-def ingreso_y_descomp_num():
-    num_a = str(input("Ingrese un numero: "))
-    num_a = list(num_a)
-    print(num_a)
-    return num_a
+import funciones
 
-def crear_tablero():
-    centena_de_millar = ["   *--* ", "   |  | ", "   |  | ",
-                          "   |  | ", "   |  | ", "   |  | ",
-                          "   |  | ", "   +--+ "]
-
-    decena_de_millar = ["   +--+ ", "   |  | ", "   |  | ",
-                          "   |  | ", "   |  | ", "   |  | ",
-                          "   |  | ", "   *--* "]
-
-    sis_enum_decimal = ' 100.000  10.000  1.000    100      10      1'
-
-
-    for x in centena_de_millar:
-        print(x)
-    for y in decena_de_millar:
-        print(y)
-    print(sis_enum_decimal)
-
-
-
-
-def agregar_punto_a_num():
-    pass
-
-
-def llenar_tablero():
-
-    pass
+print("Hola, bienvenido al abaco virtualmix-3d")
+print("Ingrese abajo un numero de 6 digitos")
 
 
 if __name__ == '__main__':
-        while True:
-            ingreso_y_descomp_num()
-            crear_tablero()
-            agregar_punto_a_num()
-            llenar_tablero()
+    funciones.ingreso_y_descomp_num()
+
+
+
 
 #Utilice un diccionario que almacene las unidades, decenas, centenas,
 #unidades de mil, unidades de diez mil y unidades de cien mil.
