@@ -1,8 +1,9 @@
-#Proyecto de evaluacion para el modulo 2 - python basico - Awakelab
+# ProyectoEvaluacion_m2
+Proyecto para evaluacion del modulo 2 en python basico - Awakelab
 
-#Trabajo con apoyo en grupo
+Trabajo con apoyo en grupo
 
-# Jhonn Bruna
-# Esteban yañez
-# Sebastian Parada
-# Martin Silva
+Jhonn Bruna
+Esteban yañez
+Sebastian Parada
+Martin Silva
