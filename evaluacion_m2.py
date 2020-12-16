@@ -1,36 +1,46 @@
 #Haga un programa que muestre una cantidad ingresada por el usuario en forma de abaco en pantalla:
+def ingreso_y_descomp_num():
+    num_a = str(input("Ingrese un numero: "))
+    num_a = list(num_a)
+    print(num_a)
+    return num_a
+
 def crear_tablero():
-    tableros = ("   *--* ", "   |  | ", "   |  | ",
-                "   |  | ", "   |  | ", "   |  | ",
-                "   |  | ", "   +--+ ")
+    centena_de_millar = ["   *--* ", "   |  | ", "   |  | ",
+                          "   |  | ", "   |  | ", "   |  | ",
+                          "   |  | ", "   +--+ "]
+
+    decena_de_millar = ["   +--+ ", "   |  | ", "   |  | ",
+                          "   |  | ", "   |  | ", "   |  | ",
+                          "   |  | ", "   *--* "]
+
     sis_enum_decimal = ' 100.000  10.000  1.000    100      10      1'
-    for tablero in tableros:
-        print(tablero * 6)
+
+
+    for x in centena_de_millar:
+        print(x)
+    for y in decena_de_millar:
+        print(y)
     print(sis_enum_decimal)
 
 
-def descomponer_num():
-    pass
+
 
 def agregar_punto_a_num():
     pass
 
-def preguntar_usuario():
-    pass
 
 def llenar_tablero():
+
     pass
-
-
 
 
 if __name__ == '__main__':
-    crear_tablero()
-    while True:
-        descomponer_num()
-        agregar_punto_a_num()
-        preguntar_usuario()
-        llenar_tablero()
+        while True:
+            ingreso_y_descomp_num()
+            crear_tablero()
+            agregar_punto_a_num()
+            llenar_tablero()
 
 #Utilice un diccionario que almacene las unidades, decenas, centenas,
 #unidades de mil, unidades de diez mil y unidades de cien mil.
