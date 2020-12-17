@@ -1,3 +1,8 @@
+# MI PRIMER CAMBIO PARA SUBIR A GIT
+# git add -A
+# git commit -m "el texto personalizado"
+# git push origin MS
+#
 espacio = "   "
 lista_numeros = []
 v1 = []
