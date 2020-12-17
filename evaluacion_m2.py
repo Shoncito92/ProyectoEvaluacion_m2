@@ -1,17 +1,10 @@
 import funciones
 
-
 print("Hola, bienvenido al abaco virtualmix-3d")
 print("Ingrese abajo un numero =< 6 digitos")
 n = input("A q u i ! : ")
-#funciones.ingreso_y_descomp_num(n)
-funciones.crear_tablero()
-
-
-dato_final_s = funciones.ingreso_y_descomp_num(n)
-print("aqui hay un nuevo cambo", type(dato_final_s))
-
 diccionario = {'unidad':"", 'decena': "", 'centena':"", 'unidad_de_mil':"", 'decena_de_mil':"", 'centena_de_mil':""}
+funciones.crear_tablero()
 
 
 if __name__ == '__main__':

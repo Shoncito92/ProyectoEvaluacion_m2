@@ -15,6 +15,7 @@ def ingreso_y_descomp_num(n):
 
 
 def crear_tablero():
+
     tablero_cccmlml = ["   *-+-* ",  #HEAD
                         "   | 0 | ", #nivel 8
                         "   | 0 | ", #nivel 7
@@ -26,7 +27,7 @@ def crear_tablero():
                         "   | 0 | ", #nivel 1
                         "   +-*-+ "] #FOOT
 
-    tablero_dddml = ["   *-+-* ",  # HEAD
+    tablero_dddml = ["   *-+-* ",    # HEAD
                        "   | 0 | ",  # nivel 8
                        "   | 0 | ",  # nivel 7
                        "   | 0 | ",  # nivel 6
@@ -36,10 +37,16 @@ def crear_tablero():
                        "   | 0 | ",  # nivel 2
                        "   | 0 | ",  # nivel 1
                        "   +-*-+ "]  # FOOT
+    z = tablero_cccmlml
+    c = tablero_dddml
+    matriz = [[z][c]]
+    print("weta weta weta", matriz)
+    tablero_completo = tablero_dddml, tablero_cccmlml
+    print(tablero_completo)
 
     sis_enum_decimal1 = '-|CCCMLML|--|DDDML|--|UUML|---|CCC|-----|DD|-----|U|'
     sis_enum_decimal2 = '-|100.000|-|10.000|-|1.000|---|100|-----|10|-----|1|'
-    
+
     for x in tablero_cccmlml:
         print(x)
     print(sis_enum_decimal1)
