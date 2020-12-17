@@ -2,7 +2,7 @@
 # git add -A
 # git commit -m "el texto personalizado"
 # git push origin MS
-#
+# Esto es una prueba para practica git
 espacio = "   "
 lista_numeros = []
 v1 = []
